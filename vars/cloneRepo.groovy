@@ -1,4 +1,4 @@
-def call(String url, String branch) {
+def callRepo(String url, String branch) {
     echo "Cloning the repository from ${url} (Branch: ${branch})"
     
     sh "whoami"  // Debugging step to verify user permissions
